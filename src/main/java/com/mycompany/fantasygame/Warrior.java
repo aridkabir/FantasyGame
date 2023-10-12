@@ -9,5 +9,11 @@ package com.mycompany.fantasygame;
  * @author Arid
  */
 public class Warrior extends Character{
+    private int attackPower ;
     
+    public Warrior(String name)
+    {
+        super(name);
+        this.attackPower = 10;
+    }
 }

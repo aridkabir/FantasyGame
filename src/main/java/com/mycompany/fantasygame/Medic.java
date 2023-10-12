@@ -9,5 +9,11 @@ package com.mycompany.fantasygame;
  * @author Arid
  */
 public class Medic extends Character{
+    private int healPower;
     
+    public Medic(String name)
+    {
+        super(name);
+        this.healPower = 10;
+    }
 }

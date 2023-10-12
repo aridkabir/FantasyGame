@@ -9,5 +9,11 @@ package com.mycompany.fantasygame;
  * @author Arid
  */
 public class Enemy extends Character{
+    private int attackPower;
     
+    public Enemy(String name, int AP)
+    {
+        super(name);
+        this.attackPower = AP;
+    }
 }

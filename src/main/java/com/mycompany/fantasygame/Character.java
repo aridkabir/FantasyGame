@@ -28,5 +28,17 @@ public class Character {
        this.stamina = 10;
        this.gold = 0;
        this.isAlive = true;
+       this.positionX = 0;
+       this.positionY = 0;
+    }
+    
+    public void equip(Item item)
+    {
+        this.equippedArmor = item;
+    }
+    
+    public void retreat()
+    {
+        //Code to retreat during battle
     }
 }
