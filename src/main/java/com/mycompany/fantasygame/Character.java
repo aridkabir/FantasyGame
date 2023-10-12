@@ -21,5 +21,12 @@ public class Character {
     private int positionX;
     private int positionY;
     
-    public Character(){
+    public Character(String name)
+    {
+       this.name = name;
+       this.HP = 10;
+       this.stamina = 10;
+       this.gold = 0;
+       this.isAlive = true;
+    }
 }
