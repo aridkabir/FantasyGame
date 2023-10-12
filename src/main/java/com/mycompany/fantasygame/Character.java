@@ -7,7 +7,7 @@ import java.util.*;
 
 /**
  *
- * @author Arid
+ * @author Arid and Talha
  */
 
 public class Character {

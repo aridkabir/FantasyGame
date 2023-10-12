@@ -6,7 +6,7 @@ package com.mycompany.fantasygame;
 
 /**
  *
- * @author Arid
+ * @author Arid and Talha
  */
 public class main {
 
